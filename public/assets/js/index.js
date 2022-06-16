@@ -74,6 +74,7 @@ const handleNoteSave = () => {
   saveNote(newNote).then(() => {
     getAndRenderNotes();
     //renderActiveNote();
+    hide(saveNoteBtn);
     noteTitle.removeAttribute('readonly');
     noteText.removeAttribute('readonly');
     noteTitle.value = '';
@@ -110,6 +111,7 @@ const handleNoteView = (e) => {
 const handleNewNoteView = (e) => {
   activeNote = {};
   //renderActiveNote();
+  hide(saveNoteBtn);
   noteTitle.removeAttribute('readonly');
   noteText.removeAttribute('readonly');
   noteTitle.value = '';
