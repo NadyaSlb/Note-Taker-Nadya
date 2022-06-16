@@ -11,8 +11,8 @@ router.post('/notes', (req, res) => {
  if(req.body) {
   const newNote = req.body;
   notes.push(newNote);
-  fs.writeFileSync(path.join(__dirname + '../../db/db.json'), JSON.stringify(notes));
-  res.sendFile(path.join(__dirname + '../../public/notes.html'));
+  fs.writeFileSync(path.join(__dirname + '../../../db/db.json'), JSON.stringify(notes));
+  res.json(notes);
  }
 });
 
