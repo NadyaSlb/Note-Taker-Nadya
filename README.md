@@ -9,7 +9,7 @@ A website for making notes
 * Node.js
 
 ## Screenshot
-![Image alt](https://github.com/NadyaSlb/Weather-dashboard-Nadya/blob/main/assets/images/Screenshot_1.jpg)
+![Image alt](https://github.com/NadyaSlb/Note-Taker-Nadya/blob/main/public/assets/images/Screenshot%202022-06-16%2019.00.58.png)
 
 ## Website
 https://fathomless-bastion-33288.herokuapp.com
